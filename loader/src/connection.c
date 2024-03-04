@@ -4,6 +4,9 @@
 #include <string.h>
 #include <time.h>
 #include <pthread.h>
+#include <netinet/in.h>
+#include <fcntl.h>
+#include <unistd.h>
 #include "headers/includes.h"
 #include "headers/connection.h"
 #include "headers/server.h"

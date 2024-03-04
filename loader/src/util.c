@@ -5,6 +5,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <fcntl.h> // for open
+#include <unistd.h> // for close
 #include "headers/includes.h"
 #include "headers/util.h"
 #include "headers/server.h"

@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <pthread.h>
 #include <sys/socket.h>
+#include <arpa/inet.h>
 #include <errno.h>
 #include "headers/includes.h"
 #include "headers/server.h"
